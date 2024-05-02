@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="brand-data" author="evheniy">
+        <insert tableName="brand">
+            <column name="name" value="Audi"/>
+            <column name="country" value="Germany"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Tesla"/>
+            <column name="country" value="USA"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Volkswagen"/>
+            <column name="country" value="Germany"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="BMW"/>
+            <column name="country" value="Germany"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Toyota"/>
+            <column name="country" value="Japan"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Honda"/>
+            <column name="country" value="Japan"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Ford"/>
+            <column name="country" value="USA"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Nissan"/>
+            <column name="country" value="Japan"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Mercedes-Benz"/>
+            <column name="country" value="Germany"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Mazda"/>
+            <column name="country" value="Japan"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Peugeot"/>
+            <column name="country" value="France"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Citroën"/>
+            <column name="country" value="France"/>
+        </insert>
+        <insert tableName="brand">
+            <column name="name" value="Renault"/>
+            <column name="country" value="France"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

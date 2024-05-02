@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="add-indexes" author="evheniy">
+        <createIndex indexName="idx_car_price" tableName="car">
+            <column name="price"/>
+        </createIndex>
+
+        <createIndex indexName="idx_car_brand_id" tableName="car">
+            <column name="brand_id"/>
+        </createIndex>
+
+        <createIndex indexName="idx_car_brand_price" tableName="car">
+            <column name="brand_id"/>
+            <column name="price"/>
+        </createIndex>
+    </changeSet>
+</databaseChangeLog>

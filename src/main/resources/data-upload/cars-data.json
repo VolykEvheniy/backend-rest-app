@@ -1,0 +1,583 @@
+[
+  {
+    "model": "Camry",
+    "year": 2022,
+    "color": "White, Black",
+    "price": 25000.00,
+    "brandId": 5
+  },
+  {
+    "model": "Camry",
+    "year": -2022,
+    "color": "White, Black",
+    "price": -25000.00,
+    "brandId": 5
+  },
+  {
+    "model": "Accord",
+    "year": 2021,
+    "color": "Red, Grey",
+    "price": 24000.00,
+    "brandId": 6
+  },
+  {
+    "model": "911",
+    "year": 2020,
+    "color": "Red, Grey",
+    "price": 24000.00,
+    "brandId": 14
+  },
+  {
+    "model": "Altima",
+    "year": 2020,
+    "color": "Blue, Silver",
+    "price": 23000.00,
+    "brandId": 8
+  },
+  {
+    "model": "CX-5",
+    "year": 2019,
+    "color": "Red, Black, White",
+    "price": 27000.00,
+    "brandId": 10
+  },
+  {
+    "model": "Corolla",
+    "year": 2018,
+    "color": "Blue, Grey",
+    "price": 19000.00,
+    "brandId": 5
+  },
+  {
+    "model": "Civic",
+    "year": 2017,
+    "color": "Black, White",
+    "price": 18500.00,
+    "brandId": 6
+  },
+  {
+    "model": "Sentra",
+    "year": 2016,
+    "color": "White, Red",
+    "price": 16000.00,
+    "brandId": 8
+  },
+  {
+    "model": "MX-5",
+    "year": 2015,
+    "color": "Black, Silver",
+    "price": 25000.00,
+    "brandId": 10
+  },
+  {
+    "model": "Prius",
+    "year": 2014,
+    "color": "Green, White",
+    "price": 22000.00,
+    "brandId": 5
+  },
+  {
+    "model": "Fit",
+    "year": 2013,
+    "color": "Blue, Black",
+    "price": 15000.00,
+    "brandId": 6
+  },
+  {
+    "model": "370Z",
+    "year": 2012,
+    "color": "Red, White",
+    "price": 30000.00,
+    "brandId": 8
+  },
+  {
+    "model": "3",
+    "year": 2011,
+    "color": "Silver, Grey",
+    "price": 18000.00,
+    "brandId": 10
+  },
+  {
+    "model": "Model S",
+    "year": 2022,
+    "color": "Red, Black, White",
+    "price": 79990.00,
+    "brandId": 2
+  },
+  {
+    "model": "Model 3",
+    "year": 2022,
+    "color": "Blue, White, Gray",
+    "price": 41990.00,
+    "brandId": 2
+  },
+  {
+    "model": "Model X",
+    "year": 2021,
+    "color": "White, Silver, Black",
+    "price": 89990.00,
+    "brandId": 2
+  },
+  {
+    "model": "Model Y",
+    "year": 2021,
+    "color": "Black, Red, White",
+    "price": 53990.00,
+    "brandId": 2
+  },
+  {
+    "model": "Cybertruck",
+    "year": 2023,
+    "color": "Silver, Black, White",
+    "price": 39990.00,
+    "brandId": 2
+  },
+  {
+    "model": "3 Series",
+    "year": 2022,
+    "color": "Black",
+    "price": 41000.00,
+    "brandId": 4
+  },
+  {
+    "model": "A4",
+    "year": 2021,
+    "color": "Red, Black",
+    "price": 39000.00,
+    "brandId": 1
+  },
+  {
+    "model": "C-Class",
+    "year": 2020,
+    "color": "Blue, White, Gray",
+    "price": 42000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Golf",
+    "year": 2019,
+    "color": "White, Green, Black",
+    "price": 23000.00,
+    "brandId": 3
+  },
+  {
+    "model": "X5",
+    "year": 2018,
+    "color": "Gray, Black, White",
+    "price": 58000.00,
+    "brandId": 4
+  },
+  {
+    "model": "TT",
+    "year": 2017,
+    "color": "Silver",
+    "price": 45000.00,
+    "brandId": 1
+  },
+  {
+    "model": "E-Class",
+    "year": 2016,
+    "color": "Black, Red",
+    "price": 50000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Beetle",
+    "year": 2015,
+    "color": "Blue, Yellow",
+    "price": 20000.00,
+    "brandId": 3
+  },
+  {
+    "model": "7 Series",
+    "year": 2014,
+    "color": "Black, Silver, Red",
+    "price": 68000.00,
+    "brandId": 4
+  },
+  {
+    "model": "Q7",
+    "year": 2013,
+    "color": "White, Blue",
+    "price": 55000.00,
+    "brandId": 1
+  },
+  {
+    "model": "SLK",
+    "year": 2012,
+    "color": "Gray",
+    "price": 48000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Touareg",
+    "year": 2011,
+    "color": "Silver, Black",
+    "price": 44000.00,
+    "brandId": 3
+  },
+  {
+    "model": "M3",
+    "year": 2010,
+    "color": "Red, White, Blue",
+    "price": 60000.00,
+    "brandId": 4
+  },
+  {
+    "model": "A8",
+    "year": 2009,
+    "color": "Black",
+    "price": 75000.00,
+    "brandId": 1
+  },
+  {
+    "model": "CLS",
+    "year": 2008,
+    "color": "Blue, Black, White",
+    "price": 70000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Polo",
+    "year": 2007,
+    "color": "Green, White",
+    "price": 15000.00,
+    "brandId": 3
+  },
+  {
+    "model": "Z4",
+    "year": 2006,
+    "color": "Red, Black, Silver",
+    "price": 35000.00,
+    "brandId": 4
+  },
+  {
+    "model": "R8",
+    "year": 2005,
+    "color": "Blue",
+    "price": 110000.00,
+    "brandId": 1
+  },
+  {
+    "model": "S-Class",
+    "year": 2004,
+    "color": "Black, Gray",
+    "price": 90000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Passat",
+    "year": 2003,
+    "color": "White, Silver, Blue",
+    "price": 25000.00,
+    "brandId": 3
+  },
+  {
+    "model": "5 Series",
+    "year": 2002,
+    "color": "Black, Red",
+    "price": 30000.00,
+    "brandId": 4
+  },
+  {
+    "model": "S3",
+    "year": 2001,
+    "color": "Blue, Black, White",
+    "price": 22000.00,
+    "brandId": 1
+  },
+  {
+    "model": "SL",
+    "year": 2000,
+    "color": "Silver, Black",
+    "price": 85000.00,
+    "brandId": 9
+  },
+  {
+    "model": "Jetta",
+    "year": 1999,
+    "color": "Green, Blue",
+    "price": 16000.00,
+    "brandId": 3
+  },
+  {
+    "model": "1 Series",
+    "year": 1998,
+    "color": "White, Red, Black",
+    "price": 20000.00,
+    "brandId": 4
+  },
+  {
+    "model": "A6",
+    "year": 1997,
+    "color": "Gray, Silver, Blue",
+    "price": 28000.00,
+    "brandId": 1
+  },
+  {
+    "model": "208",
+    "year": 2022,
+    "color": "Blue",
+    "price": 15000.00,
+    "brandId": 11
+  },
+  {
+    "model": "Clio",
+    "year": 2021,
+    "color": "Red, White",
+    "price": 14000.00,
+    "brandId": 13
+  },
+  {
+    "model": "DS 3",
+    "year": 2020,
+    "color": "Black, Silver",
+    "price": 19000.00,
+    "brandId": 12
+  },
+  {
+    "model": "308",
+    "year": 2019,
+    "color": "White, Blue, Red",
+    "price": 18000.00,
+    "brandId": 11
+  },
+  {
+    "model": "Megane",
+    "year": 2018,
+    "color": "Green, Black",
+    "price": 16000.00,
+    "brandId": 13
+  },
+  {
+    "model": "C4 Picasso",
+    "year": 2017,
+    "color": "Silver, Red, Blue",
+    "price": 22000.00,
+    "brandId": 12
+  },
+  {
+    "model": "2008",
+    "year": 2016,
+    "color": "Gray, White",
+    "price": 17000.00,
+    "brandId": 11
+  },
+  {
+    "model": "Scenic",
+    "year": 2015,
+    "color": "Blue, Black, White",
+    "price": 21000.00,
+    "brandId": 13
+  },
+  {
+    "model": "DS 5",
+    "year": 2014,
+    "color": "Black, Gray",
+    "price": 25000.00,
+    "brandId": 12
+  },
+  {
+    "model": "Clio",
+    "year": 2022,
+    "color": "Red",
+    "price": 18500.00,
+    "brandId": 13
+  },
+  {
+    "model": "208",
+    "year": 2020,
+    "color": "Blue, White",
+    "price": 17000.00,
+    "brandId": 11
+  },
+  {
+    "model": "C3",
+    "year": 2019,
+    "color": "Black, Silver, Red",
+    "price": 16000.00,
+    "brandId": 12
+  },
+  {
+    "model": "Megane",
+    "year": 2018,
+    "color": "Blue, Grey",
+    "price": 22000.00,
+    "brandId": 13
+  },
+  {
+    "model": "3008",
+    "year": 2017,
+    "color": "White",
+    "price": 24000.00,
+    "brandId": 11
+  },
+  {
+    "model": "DS7 Crossback",
+    "year": 2021,
+    "color": "Beige, Black",
+    "price": 35000.00,
+    "brandId": 12
+  },
+  {
+    "model": "Zoe",
+    "year": 2022,
+    "color": "Silver, Blue, White",
+    "price": 33000.00,
+    "brandId": 13
+  },
+  {
+    "model": "508",
+    "year": 2016,
+    "color": "Black, Red",
+    "price": 29000.00,
+    "brandId": 11
+  },
+  {
+    "model": "C4",
+    "year": 2015,
+    "color": "Grey",
+    "price": 21000.00,
+    "brandId": 12
+  },
+  {
+    "model": "F-150",
+    "year": 2020,
+    "color": "Blue, White, Gray",
+    "price": 28990.00,
+    "brandId": 7
+  },
+  {
+    "model": "Mustang",
+    "year": 2022,
+    "color": "Red, Black, White",
+    "price": 35670.00,
+    "brandId": 7
+  },
+  {
+    "model": "Explorer",
+    "year": 2018,
+    "color": "Black, Silver",
+    "price": 33675.00,
+    "brandId": 7
+  },
+  {
+    "model": "Fiesta",
+    "year": 2022,
+    "color": "White, Blue, Green",
+    "price": 19530.00,
+    "brandId": 7
+  },
+  {
+    "model": "Focus",
+    "year": 2022,
+    "color": "Silver, Red, White",
+    "price": 20000.00,
+    "brandId": 7
+  },
+  {
+    "model": "Edge",
+    "year": 2018,
+    "color": "Red, Gray, Black",
+    "price": 35045.00,
+    "brandId": 7
+  },
+  {
+    "model": "Escape",
+    "year": 2022,
+    "color": "Blue, Black, White",
+    "price": 26785.00,
+    "brandId": 7
+  },
+  {
+    "model": "Ranger",
+    "year": 2022,
+    "color": "Gray, Black, Silver",
+    "price": 25415.00,
+    "brandId": 7
+  },
+  {
+    "model": "Bronco",
+    "year": 2023,
+    "color": "Black, Red",
+    "price": 29995.00,
+    "brandId": 7
+  },
+  {
+    "model": "Expedition",
+    "year": 2019,
+    "color": "White, Silver, Black, Purple",
+    "price": 49725.00,
+    "brandId": 7
+  },
+  {
+    "model": "EcoSport",
+    "year": 2022,
+    "color": "Blue, White, Yellow",
+    "price": 21495.00,
+    "brandId": 7
+  },
+  {
+    "model": "Taurus",
+    "year": 2022,
+    "color": "Black, White, Gray",
+    "price": 30995.00,
+    "brandId": 7
+  },
+  {
+    "model": "Fusion",
+    "year": 2022,
+    "color": "Red, Silver, Blue",
+    "price": 23210.00,
+    "brandId": 7
+  },
+  {
+    "model": "Transit",
+    "year": 2020,
+    "color": "White, Black",
+    "price": 35085.00,
+    "brandId": 7
+  },
+  {
+    "model": "GT",
+    "year": 2017,
+    "color": "Blue, Red, Black",
+    "price": 500000.00,
+    "brandId": 7
+  },
+  {
+    "model": "Maverick",
+    "year": 2022,
+    "color": "Red, White, Blue",
+    "price": 19995.00,
+    "brandId": 7
+  },
+  {
+    "model": "Flex",
+    "year": 2022,
+    "color": "Silver, Gray, Black",
+    "price": 40000.00,
+    "brandId": 7
+  },
+  {
+    "model": "C-Max",
+    "year": 2014,
+    "color": "Green, White, Gray",
+    "price": 24290.00,
+    "brandId": 7
+  },
+  {
+    "model": "Galaxy",
+    "year": 2022,
+    "color": "Blue, Black, White, Yellow",
+    "price": 35100.00,
+    "brandId": 7
+  },
+  {
+    "model": "Mondeo",
+    "year": 2015,
+    "color": "Gray, Blue, Red",
+    "price": 27340.00,
+    "brandId": 7
+  }
+]
