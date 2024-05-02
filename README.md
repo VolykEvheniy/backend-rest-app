@@ -2,15 +2,15 @@
 
 
 # Запуск проекту
-- Database
+- Database:
   База даних PostgreSQL була запущена через докер, всі конфігурації щодо запуску контейнера та image знаходяться у docker-compose.yml файлі.
   Дані для підключення до бази даних знаходяться в файлі application.properties.
 - Application
   Необхідно запустити клас CarManagementApplication, який містить головний метод main.
 # Опис
-- Liquibase
+- Liquibase:
   Cкрипти для ініціалізації та міграції бази даних знаходяться в каталозі resources/liquibase.
-- upload
+- uploading:
   JSON файл для завантаження даних про автомобілі cars-data.json, розміщений в resources/data-upload.
 # Тестові дані
 - Крім файлу та його вмісту для тестування ендпоінтів можна використовувати наступні JSON стркутури:
