@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.service;
 
-import com.vlkevheniy.carmanagement.data.Brand;
+import com.vlkevheniy.carmanagement.model.Brand;
 import com.vlkevheniy.carmanagement.dto.BrandRequestDto;
 import com.vlkevheniy.carmanagement.dto.BrandResponseDto;
 import com.vlkevheniy.carmanagement.exception.DuplicateBrandException;

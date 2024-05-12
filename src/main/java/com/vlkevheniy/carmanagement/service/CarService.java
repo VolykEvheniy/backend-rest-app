@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.service;
 
-import com.vlkevheniy.carmanagement.data.Car;
+import com.vlkevheniy.carmanagement.model.Car;
 import com.vlkevheniy.carmanagement.dto.*;
 import org.springframework.web.multipart.MultipartFile;
 

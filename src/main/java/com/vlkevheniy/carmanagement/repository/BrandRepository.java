@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.repository;
 
-import com.vlkevheniy.carmanagement.data.Brand;
+import com.vlkevheniy.carmanagement.model.Brand;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

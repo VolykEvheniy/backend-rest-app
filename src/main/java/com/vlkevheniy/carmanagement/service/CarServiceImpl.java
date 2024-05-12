@@ -2,8 +2,8 @@ package com.vlkevheniy.carmanagement.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vlkevheniy.carmanagement.data.Brand;
-import com.vlkevheniy.carmanagement.data.Car;
+import com.vlkevheniy.carmanagement.model.Brand;
+import com.vlkevheniy.carmanagement.model.Car;
 import com.vlkevheniy.carmanagement.dto.*;
 import com.vlkevheniy.carmanagement.exception.CarUploadException;
 import com.vlkevheniy.carmanagement.repository.BrandRepository;

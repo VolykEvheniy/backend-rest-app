@@ -1,8 +1,8 @@
 package com.vlkevheniy.carmanagement;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.vlkevheniy.carmanagement.data.Brand;
-import com.vlkevheniy.carmanagement.data.Car;
+import com.vlkevheniy.carmanagement.model.Brand;
+import com.vlkevheniy.carmanagement.model.Car;
 import com.vlkevheniy.carmanagement.dto.BrandRequestDto;
 import com.vlkevheniy.carmanagement.dto.BrandResponseDto;
 import com.vlkevheniy.carmanagement.repository.BrandRepository;

@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.util;
 
-import com.vlkevheniy.carmanagement.data.Car;
+import com.vlkevheniy.carmanagement.model.Car;
 import com.vlkevheniy.carmanagement.exception.ReportGenerationException;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;

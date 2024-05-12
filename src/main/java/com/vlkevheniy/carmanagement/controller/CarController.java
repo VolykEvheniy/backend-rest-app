@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.controller;
 
-import com.vlkevheniy.carmanagement.data.Car;
+import com.vlkevheniy.carmanagement.model.Car;
 import com.vlkevheniy.carmanagement.dto.*;
 import com.vlkevheniy.carmanagement.service.CarService;
 import com.vlkevheniy.carmanagement.util.CSVGenerator;
