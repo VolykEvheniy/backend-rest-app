@@ -11,6 +11,7 @@ import com.vlkevheniy.carmanagement.repository.CarRepository;
 import jakarta.persistence.criteria.Predicate;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -40,6 +41,10 @@ public class CarServiceImpl implements CarService {
     private final ModelMapper modelMapper;
     private final ObjectMapper objectMapper;
     private final Validator validator;
+    private final EmailProducerService emailProducerService;
+
+    @Value("${admin.email}")
+    private String adminEmail;
 
     @Override
     @Transactional
@@ -54,7 +59,16 @@ public class CarServiceImpl implements CarService {
         car.setPrice(carDto.getPrice());
         car.setBrand(brand);
 
-        return modelMapper.map(carRepository.save(car), CarResponseDto.class);
+        Car savedCar = carRepository.save(car);
+
+        MessageDto messageDto = MessageDto.builder()
+                .to(adminEmail)
+                .subject("New Car Added")
+                .content("A new car has been added: " + savedCar.getModel())
+                .build();
+        emailProducerService.sendMessage(messageDto);
+
+        return modelMapper.map(savedCar, CarResponseDto.class);
     }
 
     @Override
