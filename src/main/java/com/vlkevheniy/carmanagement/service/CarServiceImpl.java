@@ -8,6 +8,7 @@ import com.vlkevheniy.carmanagement.dto.*;
 import com.vlkevheniy.carmanagement.exception.CarUploadException;
 import com.vlkevheniy.carmanagement.repository.BrandRepository;
 import com.vlkevheniy.carmanagement.repository.CarRepository;
+import com.vlkevheniy.common.dto.MessageDto;
 import jakarta.persistence.criteria.Predicate;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -36,6 +37,9 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class CarServiceImpl implements CarService {
 
+    private static final String EMAIL_SUBJECT = "New Car was Added";
+    private static final String EMAIL_CONTENT_TEMPLATE = "A new car has been added: %s %s, ID: %s";
+
     private final CarRepository carRepository;
     private final BrandRepository brandRepository;
     private final ModelMapper modelMapper;
@@ -61,10 +65,12 @@ public class CarServiceImpl implements CarService {
 
         Car savedCar = carRepository.save(car);
 
+        String emailContent = String.format(EMAIL_CONTENT_TEMPLATE, savedCar.getBrand().getName(), savedCar.getModel(), savedCar.getId());
+
         MessageDto messageDto = MessageDto.builder()
                 .to(adminEmail)
-                .subject("New Car Added")
-                .content("A new car has been added: " + savedCar.getModel())
+                .subject(EMAIL_SUBJECT)
+                .content(emailContent)
                 .build();
         emailProducerService.sendMessage(messageDto);
 

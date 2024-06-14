@@ -1,6 +1,6 @@
 package com.vlkevheniy.carmanagement.service;
 
-import com.vlkevheniy.carmanagement.dto.MessageDto;
+import com.vlkevheniy.common.dto.MessageDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaOperations;
