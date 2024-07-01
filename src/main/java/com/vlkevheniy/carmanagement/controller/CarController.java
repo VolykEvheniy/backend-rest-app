@@ -25,7 +25,7 @@ public class CarController {
     private final CarService carService;
 
     @PostMapping
-    public ResponseEntity<CarResponseDto> addCar(@Valid @RequestBody CarRequestDto carDto) {
+    public ResponseEntity<CarResponseDto> addCar(@Valid @RequestBody CarAddRequestDto carDto) {
         CarResponseDto carResponseDto = carService.addCar(carDto);
         return ResponseEntity.status(HttpStatus.CREATED).body(carResponseDto);
     }

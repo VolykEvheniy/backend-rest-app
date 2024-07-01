@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface CarService {
 
-    CarResponseDto addCar(CarRequestDto carDto);
+    CarResponseDto addCar(CarAddRequestDto carDto);
 
     CarResponseDto getCarById(Long id);
 

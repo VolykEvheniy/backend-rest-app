@@ -52,9 +52,9 @@ public class CarServiceImpl implements CarService {
 
     @Override
     @Transactional
-    public CarResponseDto addCar(CarRequestDto carDto) {
-        Brand brand = brandRepository.findById(carDto.getBrandId()).
-                orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Brand not found with ID: " + carDto.getBrandId()));
+    public CarResponseDto addCar(CarAddRequestDto carDto) {
+        Brand brand = brandRepository.findByName(carDto.getBrandName()).
+                orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Brand not found with this name: " + carDto.getBrandName()));
 
         Car car = new Car();
         car.setModel(carDto.getModel());
