@@ -65,14 +65,14 @@ public class CarServiceImpl implements CarService {
 
         Car savedCar = carRepository.save(car);
 
-        String emailContent = String.format(EMAIL_CONTENT_TEMPLATE, savedCar.getBrand().getName(), savedCar.getModel(), savedCar.getId());
-
-        MessageDto messageDto = MessageDto.builder()
-                .to(adminEmail)
-                .subject(EMAIL_SUBJECT)
-                .content(emailContent)
-                .build();
-        emailProducerService.sendMessage(messageDto);
+//        String emailContent = String.format(EMAIL_CONTENT_TEMPLATE, savedCar.getBrand().getName(), savedCar.getModel(), savedCar.getId());
+//
+//        MessageDto messageDto = MessageDto.builder()
+//                .to(adminEmail)
+//                .subject(EMAIL_SUBJECT)
+//                .content(emailContent)
+//                .build();
+//        emailProducerService.sendMessage(messageDto);
 
         return modelMapper.map(savedCar, CarResponseDto.class);
     }
